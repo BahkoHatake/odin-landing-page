@@ -1,18 +1,21 @@
 body{
     margin: 0;
+    display:flex;
+    flex-direction: column;
+    
 }
 .first{
     background-color: #1f2937;
     display:flex;
-    padding-left: 230px;
-    padding-right: 230px;
     flex-direction: column;
     gap: 136px;
+    padding:24px;
 }
 .header{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex:1 1 100%;
 }
 a {
     text-decoration: none;
@@ -31,11 +34,15 @@ ul{
 }
 .main{
     display:flex;
+    flex:1;
     padding-bottom: 70px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex:1 1 100%;
+    flex:none;
 }
 .left{
     width: 430px;
+
 }
 .main .first-text{
     font-size: 48px;
@@ -58,6 +65,7 @@ ul{
     border:none;
     margin:20px;
     border-radius: 8px;
+    
 }
 .image-one{
     background-color: peru;
@@ -67,4 +75,7 @@ ul{
     width:500px;
     height:300px;
     border-radius: 8px;
+}
+.main button:hover{
+    background-color:#4a8efa
 }
