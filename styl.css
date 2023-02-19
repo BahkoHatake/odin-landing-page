@@ -79,3 +79,40 @@ ul{
 .main button:hover{
     background-color:#4a8efa
 }
+.second{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.pic-contain{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    border: 4px rgb(76, 148, 207) solid;
+    border-radius: 10px;
+}
+.pic-text{
+    flex:none;
+    text-align: center;
+    flex:none;
+    width: 150px;
+
+
+
